@@ -1,10 +1,9 @@
 --- #YAML:1.0
 name: File-Slurp-Tree
-version: 1.21
+version: 1.22
 license: perl
 distribution_type: module
 requires:
-  Exporter::Simple: 0
   File::Find::Rule: 0
   File::Path: 0
   File::Slurp: 0
@@ -15,5 +14,5 @@ conflicts: {}
 provides:
   File::Slurp::Tree:
     file: lib/File/Slurp/Tree.pm
-    version: 1.21
+    version: 1.22
 generated_by: Module::Build version 0.19
