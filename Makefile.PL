@@ -2,15 +2,15 @@
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-          'PL_FILES' => {},
-          'INSTALLDIRS' => 'site',
           'NAME' => 'File::Slurp::Tree',
           'VERSION_FROM' => 'lib/File/Slurp/Tree.pm',
           'PREREQ_PM' => {
-                           'Test::More' => 0,
-                           'File::Find::Rule' => 0,
-                           'File::Path' => 0,
-                           'File::Slurp' => 0
-                         }
+                           'File::Find::Rule' => '0',
+                           'File::Path' => '0',
+                           'File::Slurp' => '0',
+                           'Test::More' => '0'
+                         },
+          'INSTALLDIRS' => 'site',
+          'PL_FILES' => {}
         )
 ;

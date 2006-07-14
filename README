@@ -1,4 +1,4 @@
-README for File::Slurp::Tree 1.23
+README for File::Slurp::Tree 1.24
 
 =head1 NAME
 
@@ -35,6 +35,12 @@ What changed over the last 3 revisions
 
 =over
 
+=item 1.24    Friday 14th July, 2006
+
+	Cope with slurp_tree("some_path/") (ie, with a trailing slash) and
+	slurp_tree("/") (still not really recommended).
+
+
 =item 1.23	Thursday 11th May, 2006
 
 	Specify binmode in the calls to read_file and write_file - should
@@ -51,10 +57,6 @@ What changed over the last 3 revisions
 	went one step further and backported to 5.00503.  Thank the
 	Northern Line for being slow
 
-
-=item 1.21	Wednesday, 6th August 2003
-
-	initial CPAN release
 =back
 
 =head1 AUTHOR
